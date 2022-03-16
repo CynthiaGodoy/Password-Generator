@@ -39,7 +39,7 @@ The main objective is the modify the starter code to create an application that 
 https://cynthiagodoy.github.io/Password-Generator/
 
 ## Screenshot
-![](images/PasswordGenerator.png)
+![](images/PasswordGenerator.PNG)
 
 ```
 - - -
