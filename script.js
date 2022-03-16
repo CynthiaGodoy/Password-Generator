@@ -36,14 +36,15 @@ function generatePassword() {
   return password;
 }
 
+//prompts below
 function getPrompts() {
 choiceArray = [];
 
-characterLength = parseInt(prompt("How many characters would you like your password to be? Must be betweent 8-128 characters."));
+characterLength = parseInt(prompt("How many characters would you like your password to be? Must be between 8-128 characters."));
 
-  if(isNAN(characterLength) || characterLength < 8 || characterLength > 128) {
+if (characterLength < 8 !== characterLength > 128) {
     alert("Password must be a number 8 to 128 characters. Please try Again.");
-    return false;
+    return;
   }
 
   if (confirm("Do you want Lowercase letters in your password?")) {
