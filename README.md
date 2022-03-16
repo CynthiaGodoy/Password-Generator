@@ -28,16 +28,12 @@ The main objective is the modify the starter code to create an application that 
 ✅ Click the button to generate a password
 ✅ Prompts for the length of the password between 8-128
 ✅ If not a number between 8-128, another prompt is displayed stating Try Again.
-✅ If number between 8-128 is chosen, another prompt is displayed to confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.
+✅ If number between 8-128 is chosen, more prompts are displayed to confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.
 ✅ When each prompt is answered, a password will be generated that matches the selected criteria.
 
 ## Live URL
 https://cynthiagodoy.github.io/Password-Generator/
 
 ```
-
-
-
-
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
