@@ -38,6 +38,9 @@ The main objective is the modify the starter code to create an application that 
 ## Live URL
 https://cynthiagodoy.github.io/Password-Generator/
 
+## Screenshot
+![](images/PasswordGenerator.png)
+
 ```
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
