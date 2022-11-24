@@ -1,4 +1,4 @@
-# 03 JavaScript: Password Generator
+# JavaScript: Password Generator
 
 ## Project Description
 
@@ -41,6 +41,5 @@ https://cynthiagodoy.github.io/Password-Generator/
 ## Screenshot
 ![](images/PasswordGenerator.PNG)
 
-```
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
