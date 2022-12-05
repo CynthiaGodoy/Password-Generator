@@ -1,15 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body,
-.wrapper {
-  height: 100%;
+body {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -17,28 +7,35 @@ body {
   background-color: #f9fbfd;
 }
 
-.background{
+.background {
   width: 100%;
-  height: 100vh;
   position: relative;
+  margin-bottom: 0;
 } 
 
 .img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  margin-bottom: 0% !important;
 }
 
 .wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 60%;
+  top: 45%;
   left: 50%;
+}
+
+.card-body {
+  margin-right: 30px; 
+}
+
+.card-header {
+  justify-content: center;
 }
 
 h1{
@@ -140,20 +137,10 @@ button[disabled] {
   overflow: hidden;
 }
 
-@media (max-width: 690px) {
-  .btn {
-    font-size: 1rem;
-    margin: 16px 0px 0px 0px;
-    padding: 10px 15px;
-  }
-
-  #password {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn {
-    font-size: 0.8rem;
+@media screen and (max-width: 768px) {
+  .wrapper {
+      left: 21%; 
+      top: 13%;
+      transform: translate(-15%, -15%);
   }
 }
